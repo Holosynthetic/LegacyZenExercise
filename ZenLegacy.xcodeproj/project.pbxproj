@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84155FC167D001D001BE5E1 /* AZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C84155FB167D001D001BE5E1 /* AZRequest.m */; };
+		C87DFA0A167FFD5F0068B213 /* AZComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87DFA09167FFD5F0068B213 /* AZComposeViewController.m */; };
+		C892993B167FDFD40027D53E /* AZStoryCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C892993A167FDFD40027D53E /* AZStoryCommentsViewController.m */; };
+		C8E59D7B167E501D00AAA758 /* AZProject.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E59D7A167E501D00AAA758 /* AZProject.m */; };
+		C8E59D7F167E58D400AAA758 /* AZStory.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E59D7E167E58D400AAA758 /* AZStory.m */; };
+		C8E59D82167E5EFF00AAA758 /* AZComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E59D81167E5EFF00AAA758 /* AZComment.m */; };
+		C8E59D85167E605D00AAA758 /* AZAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E59D84167E605D00AAA758 /* AZAuthor.m */; };
+		C8E59D88167E61BF00AAA758 /* AZConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E59D87167E61BF00AAA758 /* AZConversation.m */; };
+		C8E59D8B167E647B00AAA758 /* AZProjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E59D8A167E647B00AAA758 /* AZProjectListViewController.m */; };
+		C8E59D8E167E6F7100AAA758 /* AZConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E59D8D167E6F7100AAA758 /* AZConversationListViewController.m */; };
 		C8F2D38F167CCEBC00F79826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F2D38E167CCEBC00F79826 /* UIKit.framework */; };
 		C8F2D391167CCEBC00F79826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F2D390167CCEBC00F79826 /* Foundation.framework */; };
 		C8F2D393167CCEBC00F79826 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F2D392167CCEBC00F79826 /* CoreGraphics.framework */; };
@@ -19,6 +29,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C84155FA167D001D001BE5E1 /* AZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZRequest.h; sourceTree = "<group>"; };
+		C84155FB167D001D001BE5E1 /* AZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZRequest.m; sourceTree = "<group>"; };
+		C87DFA08167FFD5F0068B213 /* AZComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZComposeViewController.h; sourceTree = "<group>"; };
+		C87DFA09167FFD5F0068B213 /* AZComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZComposeViewController.m; sourceTree = "<group>"; };
+		C8929939167FDFD40027D53E /* AZStoryCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZStoryCommentsViewController.h; sourceTree = "<group>"; };
+		C892993A167FDFD40027D53E /* AZStoryCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZStoryCommentsViewController.m; sourceTree = "<group>"; };
+		C8E59D79167E501D00AAA758 /* AZProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZProject.h; sourceTree = "<group>"; };
+		C8E59D7A167E501D00AAA758 /* AZProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZProject.m; sourceTree = "<group>"; };
+		C8E59D7D167E58D400AAA758 /* AZStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZStory.h; sourceTree = "<group>"; };
+		C8E59D7E167E58D400AAA758 /* AZStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZStory.m; sourceTree = "<group>"; };
+		C8E59D80167E5EFF00AAA758 /* AZComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZComment.h; sourceTree = "<group>"; };
+		C8E59D81167E5EFF00AAA758 /* AZComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZComment.m; sourceTree = "<group>"; };
+		C8E59D83167E605D00AAA758 /* AZAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZAuthor.h; sourceTree = "<group>"; };
+		C8E59D84167E605D00AAA758 /* AZAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZAuthor.m; sourceTree = "<group>"; };
+		C8E59D86167E61BF00AAA758 /* AZConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZConversation.h; sourceTree = "<group>"; };
+		C8E59D87167E61BF00AAA758 /* AZConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZConversation.m; sourceTree = "<group>"; };
+		C8E59D89167E647B00AAA758 /* AZProjectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZProjectListViewController.h; sourceTree = "<group>"; };
+		C8E59D8A167E647B00AAA758 /* AZProjectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZProjectListViewController.m; sourceTree = "<group>"; };
+		C8E59D8C167E6F7100AAA758 /* AZConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZConversationListViewController.h; sourceTree = "<group>"; };
+		C8E59D8D167E6F7100AAA758 /* AZConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZConversationListViewController.m; sourceTree = "<group>"; };
 		C8F2D38A167CCEBC00F79826 /* ZenLegacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenLegacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F2D38E167CCEBC00F79826 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8F2D390167CCEBC00F79826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +78,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8E59D77167E4FFB00AAA758 /* AgileZen Data */ = {
+			isa = PBXGroup;
+			children = (
+				C84155FA167D001D001BE5E1 /* AZRequest.h */,
+				C84155FB167D001D001BE5E1 /* AZRequest.m */,
+				C8E59D79167E501D00AAA758 /* AZProject.h */,
+				C8E59D7A167E501D00AAA758 /* AZProject.m */,
+				C8E59D7D167E58D400AAA758 /* AZStory.h */,
+				C8E59D7E167E58D400AAA758 /* AZStory.m */,
+				C8E59D80167E5EFF00AAA758 /* AZComment.h */,
+				C8E59D81167E5EFF00AAA758 /* AZComment.m */,
+				C8E59D83167E605D00AAA758 /* AZAuthor.h */,
+				C8E59D84167E605D00AAA758 /* AZAuthor.m */,
+				C8E59D86167E61BF00AAA758 /* AZConversation.h */,
+				C8E59D87167E61BF00AAA758 /* AZConversation.m */,
+			);
+			name = "AgileZen Data";
+			sourceTree = "<group>";
+		};
+		C8E59D7C167E528100AAA758 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8E59D89167E647B00AAA758 /* AZProjectListViewController.h */,
+				C8E59D8A167E647B00AAA758 /* AZProjectListViewController.m */,
+				C8E59D8C167E6F7100AAA758 /* AZConversationListViewController.h */,
+				C8E59D8D167E6F7100AAA758 /* AZConversationListViewController.m */,
+				C8929939167FDFD40027D53E /* AZStoryCommentsViewController.h */,
+				C892993A167FDFD40027D53E /* AZStoryCommentsViewController.m */,
+				C87DFA08167FFD5F0068B213 /* AZComposeViewController.h */,
+				C87DFA09167FFD5F0068B213 /* AZComposeViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		C8F2D37F167CCEBC00F79826 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +144,8 @@
 			children = (
 				C8F2D39D167CCEBC00F79826 /* AppDelegate.h */,
 				C8F2D39E167CCEBC00F79826 /* AppDelegate.m */,
+				C8E59D77167E4FFB00AAA758 /* AgileZen Data */,
+				C8E59D7C167E528100AAA758 /* View Controllers */,
 				C8F2D395167CCEBC00F79826 /* Supporting Files */,
 			);
 			path = ZenLegacy;
@@ -166,6 +232,16 @@
 			files = (
 				C8F2D39B167CCEBC00F79826 /* main.m in Sources */,
 				C8F2D39F167CCEBC00F79826 /* AppDelegate.m in Sources */,
+				C84155FC167D001D001BE5E1 /* AZRequest.m in Sources */,
+				C8E59D7B167E501D00AAA758 /* AZProject.m in Sources */,
+				C8E59D7F167E58D400AAA758 /* AZStory.m in Sources */,
+				C8E59D82167E5EFF00AAA758 /* AZComment.m in Sources */,
+				C8E59D85167E605D00AAA758 /* AZAuthor.m in Sources */,
+				C8E59D88167E61BF00AAA758 /* AZConversation.m in Sources */,
+				C8E59D8B167E647B00AAA758 /* AZProjectListViewController.m in Sources */,
+				C8E59D8E167E6F7100AAA758 /* AZConversationListViewController.m in Sources */,
+				C892993B167FDFD40027D53E /* AZStoryCommentsViewController.m in Sources */,
+				C87DFA0A167FFD5F0068B213 /* AZComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +348,7 @@
 				C8F2D3AA167CCEBC00F79826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

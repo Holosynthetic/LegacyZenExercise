@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class AZAuthor;
 
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UIWindow *_window;
+    UINavigationController *_navController;
+    
+    AZAuthor *_currentUser;;
+}
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UINavigationController *navController;
+
+@property (nonatomic, retain) AZAuthor *currentUser;
 
 @end
